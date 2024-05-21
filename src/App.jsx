@@ -1,6 +1,7 @@
 import './App.css'
 
 import { Button, Container } from 'react-bootstrap'
+import { Calculator } from './components/calculator'
 
 function App() {
 
@@ -8,12 +9,8 @@ function App() {
   return (
     <>
       <div className='main-flex'>
-        <div className="container-rectangle-vert">
-            <div Id="calculator-output">
-              
-              </div> 
-
-        </div>
+        <Calculator></Calculator>
+        
       </div>
     </>
   )
